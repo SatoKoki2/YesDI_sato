@@ -16,15 +16,6 @@
 	<name>NoDI</name>
 	<description>Demo project for Spring Boot</description>
 	
-	<properties>
-		<java.version>11</java.version>
-
-		<!-- JUnit Properties -->
-		<junit.version>4.12</junit.version>
-		<easymock.version>3.4</easymock.version>
-
-	</properties>
-
 	<dependencies>
 		
 		<dependency>
@@ -64,6 +55,17 @@
 		</dependency>
 
 	</dependencies>
+	
+	<properties>
+		<java.version>11</java.version>
+
+		<!-- JUnit Properties -->
+		<junit.version>4.12</junit.version>
+		<easymock.version>3.4</easymock.version>
+
+	</properties>
+
+	
 
 	<build>
 		<plugins>
